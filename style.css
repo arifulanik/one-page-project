@@ -6,7 +6,7 @@
 }
 header{
     width: 100%; height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("img/bd4.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("bd4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -104,10 +104,28 @@ section .btntwo{
 }
 
 @keyframes changetext{
-    0%{content: "Sundorban";}
-    15%{content: "Cox's-Bazar";}
-    30%{content: "Sajek";}
-    50%{content: "Rangamati";}
-    70%{content: "Saint-martin";}
-    100%{content:"Bandarban";}
+    0%{
+        content: "Sundorban";
+        background-image: url("sb.jpg");
+    }
+    15%{
+        content:"Cox's-Bazar";
+        background-image: url("cb.jpg");
+    }
+    30%{
+        content: "Sajek";
+        background-image: url("sjk.jpg");
+    }
+    50%{
+        content: "Rangamati";
+        background-image: url("rm.jpg");
+    }
+    70%{
+        content: "Saint-martin";
+        background-image: url("bd4.jpg");
+    }
+    100%{
+        content:"Bandarban";
+        background-image: url("bb.jpg");
+    }
 }
